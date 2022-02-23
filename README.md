@@ -5,3 +5,5 @@ ScoreKeeper app.
 2. User can select what score to update by the radio buttons.
 3. User can Increase/decrease the score of the selected team using the respective buttons.
 4. User can reset scores using the reset button.
+
+![ScreenShot](screenshots/app.png)

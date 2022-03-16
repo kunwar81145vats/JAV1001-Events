@@ -8,6 +8,7 @@
 
 
     <TextView
+        style="@style/blueText"
         android:id="@+id/teamTwoScoreText"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
@@ -62,6 +63,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        style="@style/blueText"
         android:id="@+id/teamOneScoreText"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
@@ -71,6 +73,7 @@
         android:gravity="center"
         android:textSize="16sp"
         android:textStyle="bold"
+        android:theme="@style/text"
         app:layout_constraintEnd_toStartOf="@+id/teamTwoScoreText"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -140,13 +143,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1 score"
-            android:onClick="onRadioButtonClicked"
+            android:buttonTint="@color/dark_blue"
+        android:onClick="onRadioButtonClicked"
             />
         <RadioButton
             android:id="@+id/twoScoreRadio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2 score"
+            android:buttonTint="@color/dark_blue"
             android:onClick="onRadioButtonClicked"
             />
         <RadioButton
@@ -155,12 +160,14 @@
             android:layout_height="wrap_content"
             android:onClick="onRadioButtonClicked"
             android:text="4 score"
+            android:buttonTint="@color/dark_blue"
             />
         <RadioButton
             android:id="@+id/sixScoreRadio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="6 score"
+            android:buttonTint="@color/dark_blue"
             android:onClick="onRadioButtonClicked"
             />
     </RadioGroup>
